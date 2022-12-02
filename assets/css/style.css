@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* ===== Fonts ===== */
+    --font-size: 16px;
+    --font-family: 'Open Sans', sans-serif;
+    
+    /* ===== Colors ===== */
+    --body-color: #E4E9F7;
+    --primary-color: #E97730;
+    --hover-primary-color: #f46e1a;
+    --text-color: #1e272e;
+    --text-color-light: #ffffff;
+    --hover-text-color: #E97730;
+
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+}
+
+html{
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+}
+
+.btn-advise{
+    padding: 0.5rem 0.75rem;
+    display: inline-block;
+    line-height: 1.5;
+    color: var(--text-color-light);
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    background-color: var(--primary-color);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    transition: var(--tran-04);
+}
+.btn-advise:hover{
+    color: var(--text-color-light);
+    background-color: var(--hover-primary-color);
+    transition: var(--tran-04);
+}
+/* header */
+.header{
+    --header-hight: 4.75rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.header .header__inner{
+    height: var(--header-hight);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .header__logo{
+    width: 11.5rem;
+    text-align: center;
+}
+.header .header__logo .logo-text{
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.header .header__menu{
+    display: flex;
+}
+.header .header__menu .menu-item{
+    padding: 6px 12px;
+}
+.header .header__menu .menu-link{
+    color: var(--text-color);
+    transition: var(--tran-04);
+}
+.header .header__menu .menu-link:hover{
+    color: var(--hover-text-color);
+    transition: var(--tran-04);
+}
+.header .header__hotline .hotline-btn{
+}
+
+/* slideshow */
+.slideshow{
+    --height-carousel: 32rem;
+    background-color: #EFF2F4;
+}
+.slideshow .slideshow__title{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.slideshow .slideshow__carousel{
+    height: var(--height-carousel);
+    display: flex;
+    position: relative;
+}
+.slideshow .slideshow__carousel .carousel-i{
+    height: var(--height-carousel);
+}
+.slideshow .carousel-i img{
+    height: 100%;
+    object-fit: contain;
+}
+.slideshow .slideshow__carousel .carousel-btn{
+    color: #000;
+    font-size: 25px;
+    background-color: transparent;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: 1px solid #BDBDBD;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+}
+.slideshow .slideshow__carousel .carousel-btn-prev{
+    top: 40%;
+    left: 0;
+}
+.slideshow .slideshow__carousel .carousel-btn-next{
+    top: 40%;
+    right: 0;
+}
+
+/* q2a */
+.q2a{
+
+}
+.q2a .q2a-content:nth-child(2){
+    background: rgba(239, 242, 244, 0.5);
+}
+.q2a .problem .problem__icon{
+    width: 40px;
+    height: 40px;
+}
+.problem .problem__title{
+}
+.problem .problem__title .problem__sub-title{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.problem .problem__title .problem__topic{
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.problem .problem__big-business{
+    display: flex;
+}
+.problem .problem__big-business .problem__group-name{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.problem .problem__startups{
+    display: flex;
+}
+.problem .problem__startups .problem__group-name{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.problem .problem__content{
+    margin-left: 20px;
+}
+.problem .problem__question-list .problem__question-item{
+    margin-bottom: 10px;
+    line-height: 1.2;
+    position: relative;
+}
+.problem .problem__question-list .problem__question-item::before{
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -12px;
+    width: 6px;
+    height: 6px;
+    background-color: #828282;
+    border-radius: 50%;
+}
+.solution{
+    --height-logo-app: 64px;
+}
+.solution__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.solution .solution__title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.solution .solution__logo{
+    width: 7.5rem;
+}
+.solution .solution__app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.solution .solution__app .solution__logo-app{
+    height: var(--height-logo-app);
+}
+.solution .solution__list-advantages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 5px;
+    border-top: 1px solid #ecf0f1;
+}
+.solution .solution__list-advantages .solution__advantages-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.solution .solution__advantages-item svg{
+    color: #27AE60;
+    margin-right: 10px;
+}
+.solution .solution__gex{
+    background-color: #ffffff;
+}
+.solution .solution__gex .solution__list-advantages{
+    height: 100%;
+    border-top: none;
+}
+.solution .solution__gex-app{
+    display: flex;
+    flex-wrap: wrap;
+}
+.solution .solution__gex-app .solution__gex-icon{
+    width: 40px;
+}
+.solution .solution__gex-app .solution__gex-name{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.solution .solution__gex-app .solution__gex-item{
+    width: 25%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    user-select: none;
+    cursor: pointer;
+    transition: var(--tran-04);
+}
+.solution .solution__gex-app .solution__gex-item:hover{
+    transform: translateY(-3px);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: var(--tran-04);
+}
