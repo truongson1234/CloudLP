@@ -17,10 +17,10 @@
         <div class="header">
             <div class="container">
                 <div class="header__inner">
-                    <div class="header__logo">
+                    <a class="header__logo" href="#">
                         <img class="logo-img" src="./assets/img/logo.svg" alt="iboc">
                         <span class="logo-text">Intelligent Back Office on Cloud</span>
-                    </div>
+                    </a>
                     <ul class="header__menu">
                         <li class="menu-item">
                             <a class="menu-link" href="./introduce.html">Giới thiệu</a>
@@ -128,7 +128,7 @@
                                         </ul>
                                     </div>
                                     <div class="d-flex justify-content-center">
-                                        <a class="btn-advise mx-auto" href="#">
+                                        <a class="btn-advise mx-auto" href="#" data-bs-toggle="modal" data-bs-target="#registerModal">
                                             Tư vấn miễn phí
                                         </a>
                                     </div>
@@ -162,7 +162,7 @@
                                         </ul> 
                                     </div>
                                     <div class="d-flex justify-content-center">
-                                        <a class="btn-advise mx-auto" href="#">
+                                        <a class="btn-advise mx-auto" href="#" data-bs-toggle="modal" data-bs-target="#registerModal">
                                             Tư vấn miễn phí
                                         </a>
                                     </div>
@@ -267,7 +267,7 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-center">
-                                <a class="btn-advise mx-auto" href="#">
+                                <a class="btn-advise mx-auto" href="#" data-bs-toggle="modal" data-bs-target="#registerModal">
                                     Tư vấn miễn phí
                                 </a>
                             </div>
@@ -448,10 +448,10 @@
             <div class="container">
                 <div class="row">
                     <div class="footer__nav col py-3">
-                        <div class="footer__logo">
+                        <a class="footer__logo" href="#">
                             <img class="footer__logo-img" src="./assets/img/logo.svg" alt="iboc">
                             <span class="footer__logo-text">Intelligent Back Office on Cloud</span>
-                        </div>
+                        </a>
                         <ul class="footer__menu">
                             <li class="footer__menu-item">
                                 <a href="./introduce.html" class="footer__menu-link">
@@ -510,6 +510,70 @@
                     <div class="col">
                         <p class="footer__copyright">Copyright ©2022 Codelovers Vietnam. All right reserved.</p>
                     </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- registerModal -->
+        <div class="register-modal modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="register-modal__content modal-content">
+                    <form class="register-modal__form">
+                        <div class="register-modal__header modal-header">
+                            <h1 class="register-modal__title modal-title" id="registerModalLabel">THÔNG TIN ĐĂNG KÝ</h1>
+                            <button type="button" class="register-modal__btn-close" data-bs-dismiss="modal">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+                        <div class="register-modal__body modal-body">
+                            <div class="register-modal__row mb-3">
+                                <i class="register-modal__icon fa-solid fa-user"></i>
+                                <input type="text" class="register-modal__form-control" placeholder="Tên của anh/chị">
+                            </div>
+                            <div class="register-modal__row mb-3">
+                                <i class="register-modal__icon fa-solid fa-phone"></i>
+                                <input type="text" class="register-modal__form-control" placeholder="Số điện thoại của anh/chị">
+                            </div>
+                            <div class="register-modal__row mb-3">
+                                <i class="register-modal__icon fa-solid fa-envelope"></i>
+                                <input type="text" class="register-modal__form-control" placeholder="Email của anh/chị">
+                            </div>
+                            <div class="register-modal__row mb-3">
+                                <i class="register-modal__icon fa-solid fa-building"></i>
+                                <input type="text" class="register-modal__form-control" placeholder="Tên công ty/tổ chức anh/chị đang làm việc">
+                            </div>
+                            <div class="register-modal__row mb-3">
+                                <i class="register-modal__icon fa-solid fa-users"></i>
+                                <input type="text" class="register-modal__form-control" placeholder="Số lượng nhân sự tại công ty/ tổ chức">
+                            </div>
+                        </div>
+                        <div class="register-modal__footer modal-footer">
+                            <button type="button" class="btn-advise mx-auto" data-bs-toggle="modal" data-bs-target="#confirmModal">Gửi thông tin đăng ký</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- confirmModal -->
+        <div class="confirm-modal modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="confirm-modal__content modal-content">
+                    <div class="confirm-modal__header modal-header">
+                        <button type="button" class="confirm-modal__btn-close" data-bs-dismiss="modal">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    <div class="confirm-modal__body modal-body">
+                        <div class="confirm-modal__check">
+                            <div class="confirm-modal__check-inner">
+                                <i class="fa-sharp fa-solid fa-check"></i>
+                            </div>
+                        </div>
+                        <h3 class="confirm-modal__title my-3"> Cảm ơn anh/chị!</h3>
+                        <p class="confirm-modal__sub-title">CodeLovers Việt Nam sẽ liên hệ anh/chị trong thời gian sớm nhất.</p>
+                    </div>
+                    <div class="confirm-modal__footer modal-footer"></div>
                 </div>
             </div>
         </div>

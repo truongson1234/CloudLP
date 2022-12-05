@@ -40,6 +40,8 @@ html{
     text-transform: uppercase;
     vertical-align: middle;
     background-color: var(--primary-color);
+    outline: none;
+    border: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
@@ -67,6 +69,7 @@ html{
     text-align: center;
 }
 .header .header__logo .logo-text{
+    color: #413D3D;
     font-size: 12px;
     font-weight: 600;
     white-space: nowrap;
@@ -644,4 +647,124 @@ html{
 }
 .solution-2nd .solution-2nd__body .content-3{
     background: linear-gradient(91.76deg, #FFFFFF 10.87%, #E0F5E9 98.95%);
+}
+
+/* register-modal */
+.register-modal{
+
+}
+.register-modal .register-modal__content{
+    border-radius: 10px;
+    position: relative;
+}
+.register-modal .register-modal__content .register-modal__header{
+    border: none;
+}
+.register-modal .register-modal__content .register-modal__title{
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.register-modal .register-modal__content .register-modal__btn-close{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #EB5757;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}
+.register-modal .register-modal__content .register-modal__row{
+    color: #545454;
+    position: relative;
+}
+.register-modal .register-modal__content .register-modal__form-control{
+    width: 100%;
+    padding: 10px 10px 10px 45px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    position: relative;
+}
+.register-modal .register-modal__content .register-modal__form-control:focus{
+    color: #212529;
+    background-color: #fff;
+    border-color: var(--primary-color);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(233 119 48 / 25%);
+}
+.register-modal .register-modal__content .register-modal__icon{
+    position: absolute;
+    top: 35%;
+    left: 15px;
+    z-index: 10;
+}
+.register-modal .register-modal__content .register-modal__footer{
+    border: none;
+}
+
+/* confirm-modal */
+.confirm-modal .confirm-modal__content{
+    border-radius: 10px;
+    position: relative;
+}
+.confirm-modal .confirm-modal__content .confirm-modal__header{
+    border: none;
+}
+.confirm-modal .confirm-modal__content .confirm-modal__btn-close{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #EB5757;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}
+.confirm-modal .confirm-modal__content .confirm-modal__check{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #6FCF97;
+    border-radius: 50%;
+}
+.confirm-modal .confirm-modal__content .confirm-modal__check-inner{
+    width: 60px;
+    height: 60px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6FCF97;
+    box-shadow: 0px 8px 26px rgba(4, 117, 52, 0.5);
+    border-radius: 50%;
+}
+.confirm-modal .confirm-modal__content .confirm-modal__title{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.confirm-modal .confirm-modal__content .confirm-modal__sub-title{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.confirm-modal .confirm-modal__content .confirm-modal__footer{
+    border: none;
 }
