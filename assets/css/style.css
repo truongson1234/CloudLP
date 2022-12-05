@@ -38,6 +38,7 @@ html{
     color: var(--text-color-light);
     text-align: center;
     text-transform: uppercase;
+    white-space: nowrap;
     vertical-align: middle;
     background-color: var(--primary-color);
     outline: none;
@@ -81,6 +82,7 @@ html{
     padding: 6px 12px;
 }
 .header .header__menu .menu-link{
+    white-space: nowrap;
     color: var(--text-color);
     transition: var(--tran-03);
 }
