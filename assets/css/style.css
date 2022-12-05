@@ -584,3 +584,64 @@ html{
     height: 40px;
     border-right: 1px solid #E0E0E0;
 }
+
+/* introduce-solution-2nd */
+.solution-2nd .solution-2nd__header{
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+}
+.solution-2nd .solution-2nd__header .solution-2nd__title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.solution-2nd .solution-2nd__header .solution-2nd__sub-title{
+    font-weight: 400;
+}
+.solution-2nd .solution-2nd__body .row > *{
+    padding: 0;
+}
+.solution-2nd .solution-2nd__body .content-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.solution-2nd .solution-2nd__body .solution-2nd__content{
+    width: 50%;
+    margin: 0 auto;
+}
+.solution-2nd .solution-2nd__body .solution-2nd__name{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.solution-2nd .solution-2nd__body .solution-2nd__select{
+}
+.solution-2nd .solution-2nd__body .solution-2nd__option{
+    line-height: 1.5;
+    margin-bottom: 10px;
+    position: relative;
+}
+.solution-2nd .solution-2nd__body .solution-2nd__option::before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: -15px;
+}
+.solution-2nd .solution-2nd__body .content-1{
+    background: linear-gradient(267.31deg, #F8F3F1 16.25%, rgba(248, 243, 241, 0) 80.67%);
+}
+.solution-2nd .solution-2nd__body .content-2{
+    background: linear-gradient(80.62deg, #D6EAFF 2.83%, rgba(255, 255, 255, 0) 90.8%);
+}
+.solution-2nd .solution-2nd__body .content-3{
+    background: linear-gradient(91.76deg, #FFFFFF 10.87%, #E0F5E9 98.95%);
+}
