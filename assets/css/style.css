@@ -79,11 +79,11 @@ html{
 }
 .header .header__menu .menu-link{
     color: var(--text-color);
-    transition: var(--tran-04);
+    transition: var(--tran-03);
 }
 .header .header__menu .menu-link:hover{
     color: var(--hover-text-color);
-    transition: var(--tran-04);
+    transition: var(--tran-03);
 }
 .header .header__hotline .hotline-btn{
 }
@@ -493,6 +493,11 @@ html{
 .footer .footer__nav .footer__menu-link{
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
+    transition: var(--tran-03);
+}
+.footer .footer__menu-item:hover .footer__menu-link{
+    color: var(--hover-primary-color);
+    transition: var(--tran-03);
 }
 .footer .footer__body{
     border-top: 1px solid rgba(224, 224, 224, 0.1);
@@ -518,4 +523,64 @@ html{
     font-size: 12px;
     font-weight: 400;
     text-align: center;
+}
+
+/* introduce-brand */
+.brand{
+    background: rgba(239, 242, 244, 0.5);
+}
+.brand .brand__title{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+}
+.brand .brand__inner{
+    height: 350px;
+    background-image: url(../img/ellipse.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.brand .brand__group{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.brand .brand__group .brand__group-img.member-item{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 70px;
+    padding: 6px 20px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0 auto;
+}
+.brand .brand__group .brand__group-img.big-img{
+    width: 500px;
+    margin: 0 auto;
+}
+.brand .brand__partner .brand__partner-title{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+.brand .brand__partner .brand__partner-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand .brand__partner .brand__partner-logo{
+    width: 100px;
+    margin: 0 10px;
+}
+.brand .brand__partner .brand__partner-line{
+    height: 40px;
+    border-right: 1px solid #E0E0E0;
 }
