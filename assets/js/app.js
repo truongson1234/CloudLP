@@ -53,3 +53,10 @@ doc.ready(function() {
         $(".header .header__menu").slideToggle();
     });
 });
+
+w.resize(function() {
+    var width = w.width();
+    if (width > 1200){
+        $(".header .header__menu").slideDown()
+    }
+});
