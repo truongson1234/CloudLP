@@ -68,6 +68,9 @@
     .q2a .problem .problem__title{
         text-align: center;
     }
+    .solution .solution__list-advantages{
+        padding: 20px 15px;
+    }
 
     /* reason */
     .reason .reason__title{
