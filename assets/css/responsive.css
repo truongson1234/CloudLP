@@ -74,6 +74,7 @@
         width: 100%;
     }
     .reason .reason__list .reason__item{
+        padding: 20px 15px;
         transition: var(--tran-04);
     }
     .reason .reason__list .reason__item-icon{
