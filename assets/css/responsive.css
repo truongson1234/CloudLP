@@ -56,7 +56,9 @@
     }
 
     /* slideshow */
-
+    .slideshow{
+        --height-carousel: 20rem;
+    }
     .slideshow .slideshow__logo{
         display: block;
     }
@@ -105,6 +107,10 @@
     }
 }
 @media screen and (max-width: 576px) {
+    /* slideshow */
+    .slideshow .slideshow__title{
+        width: 100%;
+    }
     /* q2a */
     .solution .solution__gex-app .solution__gex-icon{
         width: 25px;
