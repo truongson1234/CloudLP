@@ -1,7 +1,6 @@
 @media screen and (max-width: 1200px) {
     /* header */
     .header{
-        
     }
     .header .container{
         max-width: 100vw;
@@ -28,30 +27,34 @@
         padding: 15px 0;
     }
     .header .header__menu{
-        display: none;
-        flex-direction: column;
+        height: auto;
         position: absolute;
         top: 100%;
         left: 0;
         right: 0;
         background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
-    .header .header__menu .menu-item{
+    .header .header__menu-inner{
+        width: 100%;
+        flex-direction: column;
+    }
+    .header .header__menu-inner .menu-item{
+        padding: 0;
         border-top: 1px solid #E0E0E0;
         transition: var(--tran-03);
     }
-    .header .header__menu .menu-item .menu-link{
+    .header .header__menu-inner .menu-item .menu-link{
         display: block;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 15px 5px;
         text-align: center;
         line-height: 1.5;
     }
-    .header .header__menu .menu-item:hover{
+    .header .header__menu-inner .menu-item:hover{
         background-color: var(--primary-color);
         transition: var(--tran-03);
     }
-    .header .header__menu .menu-item:hover .menu-link{
+    .header .header__menu-inner .menu-item:hover .menu-link{
         color: #ffffff;
         transition: var(--tran-03);
     }
@@ -86,7 +89,6 @@
     .reason .reason__list .reason__item-icon{
         width: 69px;
         height: 69px;
-        flex-shrink: 0;
         background-color: transparent;
         border: 1px solid #EFEFEF;
         transition: var(--tran-04);

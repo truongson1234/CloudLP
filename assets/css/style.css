@@ -86,17 +86,20 @@ html{
     white-space: nowrap;
 }
 .header .header__menu{
+    display: block;
+}
+.header .header__menu .header__menu-inner{
     display: flex;
 }
-.header .header__menu .menu-item{
+.header .header__menu-inner .menu-item{
     padding: 6px 12px;
 }
-.header .header__menu .menu-link{
+.header .header__menu-inner .menu-link{
     white-space: nowrap;
     color: var(--text-color);
     transition: var(--tran-03);
 }
-.header .header__menu .menu-link:hover{
+.header .header__menu-inner .menu-link:hover{
     color: var(--hover-text-color);
     transition: var(--tran-03);
 }
@@ -104,7 +107,7 @@ html{
     display: none;
     height: 100%;
     padding: 0 25px;
-    line-height: 1.5;
+    padding: 0.75rem 25px;
     outline: none;
     border: none;
     background-color: #FFFFFF;
@@ -360,6 +363,7 @@ html{
     width: 80px;
     height: 80px;
     margin-right: 15px;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
