@@ -57,6 +57,12 @@ html{
 /* header */
 .header{
     --header-hight: 4.75rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: #FFFFFF;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .header .header__inner{
@@ -90,6 +96,15 @@ html{
     color: var(--hover-text-color);
     transition: var(--tran-03);
 }
+.header .header__inner .header__btn-bars{
+    display: none;
+    height: 100%;
+    padding: 0 25px;
+    line-height: 1.5;
+    outline: none;
+    border: none;
+    background-color: #FFFFFF;
+}
 .header .header__hotline .hotline-btn{
 }
 
@@ -98,11 +113,23 @@ html{
     --height-carousel: 32rem;
     background-color: #EFF2F4;
 }
+.slideshow .slideshow__logo{
+    display: none;
+    width: 11.5rem;
+    text-align: center;
+}
+.slideshow .slideshow__logo .logo-text{
+    color: #413D3D;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
 .slideshow .slideshow__title{
     width: 85%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    line-height: 1.5;
     font-size: 30px;
     font-weight: 700;
 }
@@ -243,22 +270,38 @@ html{
 }
 .solution .solution__gex-app{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 .solution .solution__gex-app .solution__gex-icon{
     width: 40px;
+    margin-bottom: 5px;
 }
 .solution .solution__gex-app .solution__gex-name{
-    width: 65%;
     margin: 0 auto;
     text-align: center;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.4;
 }
+.solution .solution__gex-app .solution__gex-line{
+    width: 1px;
+    height: 150px;
+    border-right: 1px dashed #E0E0E0;
+}
+.solution .solution__gex-app .solution__gex-line.line-row{
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #E0E0E0;
+}
+.solution .solution__gex-app .solution__gex-row{
+    display: flex;
+    align-items: center;
+}
 .solution .solution__gex-app .solution__gex-item{
-    width: 25%;
-    padding: 20px 0;
+    height: 150px;
+    padding: 20px 10px;
+    flex: 1 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -266,6 +309,7 @@ html{
     border-radius: 5px;
     user-select: none;
     cursor: pointer;
+    position: relative;
     transition: var(--tran-04);
 }
 .solution .solution__gex-app .solution__gex-item:hover{
@@ -281,6 +325,7 @@ html{
     text-align: center;
     font-size: 30px;
     font-weight: 700;
+    line-height: 1.5;
 }
 .reason .reason__container .reason__list{
     display: flex;
@@ -321,6 +366,7 @@ html{
 }
 .reason .reason__item-icon .icon{
     width: 40px;
+    height: 40px;
 }
 .reason .reason__item:hover .reason__item-icon{
     background-color: var(--hover-primary-color);

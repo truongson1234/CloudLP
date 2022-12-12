@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
     <div id="main">
@@ -38,15 +39,22 @@
                             <a class="menu-link" href="#">Tin tức</a>
                         </li>
                     </ul>
+                    <button class="header__btn-bars">
+                        <i class="fa-regular fa-bars"></i>
+                    </button>
                     <div class="header__hotline">
                         <a class="hotline-btn btn-advise" href="tel:02466886760">Hotline 0246.6886760</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="slideshow pt-5">
+        <div class="slideshow pt-5 mt-5">
             <div class="container">
-                <h1 class="slideshow__title mb-5">Cung cấp các giải pháp SAAS hỗ trợ doanh nghiệp chuyển đổi số triệt để và làm việc từ bất kỳ đâu</h1>
+                <div class="slideshow__logo mb-5 mx-auto">
+                    <img class="logo-img" src="./assets/img/logo.svg" alt="iboc">
+                    <span class="logo-text">Intelligent Back Office on Cloud</span>
+                </div>
+                <h1 class="slideshow__title mb-md-5">Cung cấp các giải pháp SAAS hỗ trợ doanh nghiệp chuyển đổi số triệt để và làm việc từ bất kỳ đâu</h1>
                 <div class="slideshow__carousel">
                     <div class="carousel-i">
                         <img src="./assets/img/slide-img-1.png" alt="img-1">
@@ -64,13 +72,13 @@
             <div class="q2a-content py-5">
                 <div class="container">
                     <div class="row problem">
-                        <div class="col-4">
+                        <div class="col-12 col-md-4 mb-5 mb-md-0">
                             <div class="problem__title">
                                 <h3 class="problem__sub-title">Bài toán kết nối</h3>
                                 <h1 class="problem__topic">cộng tác nội bộ doanh nghiệp</h1>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-md-4 mb-5 mb-md-0">
                             <div class="problem__big-business">
                                 <img class="problem__icon" src="./assets/img/icon/big-business.svg" alt="">
                                 <div class="problem__content">
@@ -82,7 +90,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-md-4">
                             <div class="problem__startups">
                                 <img class="problem__icon" src="./assets/img/icon/startups.svg" alt="">
                                 <div class="problem__content">
@@ -127,7 +135,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="d-flex justify-content-center">
+                                    <div class="d-flex justify-content-center mb-5 mb-md-0">
                                         <a class="btn-advise mx-auto" href="#" data-bs-toggle="modal" data-bs-target="#registerModal">
                                             Tư vấn miễn phí
                                         </a>
@@ -175,13 +183,13 @@
             <div class="q2a-content py-5">
                 <div class="container">
                     <div class="row problem">
-                        <div class="col-4">
+                        <div class="col-12 col-md-4 mb-5 mb-md-0">
                             <div class="problem__title">
                                 <h3 class="problem__sub-title">Bài toán vận hành</h3>
                                 <h1 class="problem__topic">Các quy trình trong doanh nghiệp</h1>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-md-4 mb-5 mb-md-0">
                             <div class="problem__big-business">
                                 <img class="problem__icon" src="./assets/img/icon/big-business.svg" alt="">
                                 <div class="problem__content">
@@ -192,7 +200,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-md-4">
                             <div class="problem__startups">
                                 <img class="problem__icon" src="./assets/img/icon/startups.svg" alt="">
                                 <div class="problem__content">
@@ -228,39 +236,50 @@
                                             </li>
                                         </ul> 
                                     </div>
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-12 col-md-6 p-0">
                                         <div class="solution__gex-app">
-                                            <div class="solution__gex-item">
-                                                <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (1).svg" alt="gex-icon">
-                                                <span class="solution__gex-name">Quản lý chấm công</span>
+                                            <div class="solution__gex-row">
+                                                <div class="solution__gex-item">
+                                                    <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (1).svg" alt="gex-icon">
+                                                    <span class="solution__gex-name">Quản lý chấm công</span>
+                                                </div>
+                                                <span class="solution__gex-line"></span>
+                                                <div class="solution__gex-item">
+                                                    <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (2).svg" alt="gex-icon">
+                                                    <span class="solution__gex-name">Quản lý tuyển dụng</span>
+                                                </div>
+                                                <span class="solution__gex-line"></span>
+                                                <div class="solution__gex-item">
+                                                    <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (3).svg" alt="gex-icon">
+                                                    <span class="solution__gex-name">Quản lý nhân sự</span>
+                                                </div>
+                                                <span class="solution__gex-line"></span>
+                                                <div class="solution__gex-item">
+                                                    <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (4).svg" alt="gex-icon">
+                                                    <span class="solution__gex-name">Quản lý thiết bị</span>
+                                                </div>
                                             </div>
-                                            <div class="solution__gex-item">
-                                                <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (2).svg" alt="gex-icon">
-                                                <span class="solution__gex-name">Quản lý tuyển dụng</span>
-                                            </div>
-                                            <div class="solution__gex-item">
-                                                <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (3).svg" alt="gex-icon">
-                                                <span class="solution__gex-name">Quản lý nhân sự</span>
-                                            </div>
-                                            <div class="solution__gex-item">
-                                                <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (4).svg" alt="gex-icon">
-                                                <span class="solution__gex-name">Quản lý thiết bị</span>
-                                            </div>
-                                            <div class="solution__gex-item">
-                                                <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (5).svg" alt="gex-icon">
-                                                <span class="solution__gex-name">Quản lý mua hàng</span>
-                                            </div>
-                                            <div class="solution__gex-item">
-                                                <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (6).svg" alt="gex-icon">
-                                                <span class="solution__gex-name">Quản lý thanh toán</span>
-                                            </div>
-                                            <div class="solution__gex-item">
-                                                <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (7).svg" alt="gex-icon">
-                                                <span class="solution__gex-name">Quản lý duyệt giấy tờ số</span>
-                                            </div>
-                                            <div class="solution__gex-item">
-                                                <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (8).svg" alt="gex-icon">
-                                                <span class="solution__gex-name">Quản lý lịch làm việc từ xa</span>
+                                            <span class="solution__gex-line line-row"></span>
+                                            <div class="solution__gex-row">
+                                                <div class="solution__gex-item">
+                                                    <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (5).svg" alt="gex-icon">
+                                                    <span class="solution__gex-name">Quản lý mua hàng</span>
+                                                </div>
+                                                <span class="solution__gex-line"></span>
+                                                <div class="solution__gex-item">
+                                                    <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (6).svg" alt="gex-icon">
+                                                    <span class="solution__gex-name">Quản lý thanh toán</span>
+                                                </div>
+                                                <span class="solution__gex-line"></span>
+                                                <div class="solution__gex-item">
+                                                    <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (7).svg" alt="gex-icon">
+                                                    <span class="solution__gex-name">Quản lý duyệt giấy tờ số</span>
+                                                </div>
+                                                <span class="solution__gex-line"></span>
+                                                <div class="solution__gex-item">
+                                                    <img class="solution__gex-icon" src="./assets/img/icon/gex/gex-icon (8).svg" alt="gex-icon">
+                                                    <span class="solution__gex-name">Quản lý lịch làm việc từ xa</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -280,14 +299,15 @@
             <div class="container py-5">
                 <h1 class="reason__title mb-5">Lý do lựa chọn CodeLovers Việt Nam làm đối tác chuyển đổi số doanh nghiệp</h1>
                 <div class="reason__container row">
-                    <div class="reason__image col-6">
+                    <div class="reason__image d-none d-md-block col-md-6">
                         <img src="./assets/img/handshake-img.svg" alt="handshake-img">
                     </div>
-                    <ul class="reason__list col-6">
+                    <ul class="reason__list col-12 col-md-6">
                         <li class="reason__item">
                             <div class="reason__item-icon">
                                 <div class="icon">
-                                    <img src="./assets/img/icon/reason/icon-1.svg" alt="reason-icon">
+                                    <img class="d-none d-md-block" src="./assets/img/icon/reason/icon-1.svg" alt="reason-icon">
+                                    <img class="d-block d-md-none" src="./assets/img/icon/reason/icon-mobi-1.svg" alt="reason-icon-mobi">
                                 </div>
                             </div>
                             <h3 class="reason__item-name">Đối tác ủy quyền của Google Cloud và Zoho Corporation</h3>
@@ -295,7 +315,8 @@
                         <li class="reason__item">
                             <div class="reason__item-icon">
                                 <div class="icon">
-                                    <img src="./assets/img/icon/reason/icon-2.svg" alt="reason-icon">
+                                    <img class="d-none d-md-block" src="./assets/img/icon/reason/icon-2.svg" alt="reason-icon">
+                                    <img class="d-block d-md-none" src="./assets/img/icon/reason/icon-mobi-2.svg" alt="reason-icon-mobi">
                                 </div>
                             </div>
                             <h3 class="reason__item-name">Đối tác ủy quyền của Google Cloud và Zoho Corporation</h3>
@@ -303,7 +324,8 @@
                         <li class="reason__item">
                             <div class="reason__item-icon">
                                 <div class="icon">
-                                    <img src="./assets/img/icon/reason/icon-3.svg" alt="reason-icon">
+                                    <img class="d-none d-md-block" src="./assets/img/icon/reason/icon-3.svg" alt="reason-icon">
+                                    <img class="d-block d-md-none" src="./assets/img/icon/reason/icon-mobi-3.svg" alt="reason-icon-mobi">
                                 </div>
                             </div>
                             <h3 class="reason__item-name">Chi phí cạnh tranh kết hợp nhiều ưu đãi khi hợp tác</h3>
@@ -311,7 +333,8 @@
                         <li class="reason__item">
                             <div class="reason__item-icon">
                                 <div class="icon">
-                                    <img src="./assets/img/icon/reason/icon-4.svg" alt="reason-icon">
+                                    <img class="d-none d-md-block" src="./assets/img/icon/reason/icon-4.svg" alt="reason-icon">
+                                    <img class="d-block d-md-none" src="./assets/img/icon/reason/icon-mobi-4.svg" alt="reason-icon-mobi">
                                 </div>
                             </div>
                             <h3 class="reason__item-name">Hỗ trợ 24/7, giải đáp và tư vấn chu đáo các thắc mắc của khách hàng</h3>
@@ -319,7 +342,8 @@
                         <li class="reason__item">
                             <div class="reason__item-icon">
                                 <div class="icon">
-                                    <img src="./assets/img/icon/reason/icon-5.svg" alt="reason-icon">
+                                    <img class="d-none d-md-block" src="./assets/img/icon/reason/icon-5.svg" alt="reason-icon">
+                                    <img class="d-block d-md-none" src="./assets/img/icon/reason/icon-mobi-5.svg" alt="reason-icon-mobi">
                                 </div>
                             </div>
                             <h3 class="reason__item-name">Bảo mật thông tin tuyệt đối theo tiêu chuẩn ISO 27001 và ISO 9001</h3>
@@ -329,7 +353,7 @@
             </div>
         </div>
         <div class="news">
-            <div class="container py-5">
+            <div class="container py-5 d-none d-md-block">
                 <h1 class="news__tagname mb-5">Tin tức</h1>
                 <div class="row">
                     <div class="col-4">
@@ -395,14 +419,14 @@
         <div class="connect">
             <div class="container py-5">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 mb-5 mb-md-0">
                         <div class="connect__item">
                             <p class="connect__sub-title">get in touch</p>
                             <h1 class="connect__title my-3">Kết nối với chúng tôi để được tư vấn</h1>
                             <p class="connect__sub-title">Liên hệ với chúng tôi để được tư vấn giải pháp và dịch vụ tốt nhất cho doanh nghiệp của bạn và nhận báo giá dịch vụ tốt nhất</p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 mb-5 mb-md-0">
                         <div class="connect__item">
                             <h3 class="connect__title-item mb-3">Make a call</h3>
                             <div class="connect__contact mb-3">
@@ -425,7 +449,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-4">
                         <div class="connect__item">
                             <h3 class="connect__title-item mb-3">Send a request</h3>
                             <div class="connect__contact mb-3">
@@ -487,19 +511,19 @@
                     </div>
                 </div>
                 <div class="footer__body row py-5">
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 mb-5 mb-md-0">
                         <div class="footer__address">
                             <h3 class="footer__address-name">Trụ sở chính Hà Nội</h3>
                             <p class="footer__address-info">Tầng 5, tòa nhà ACCI, số. 210 Lê Trọng Tấn, Phường Khương Mai, Quận Thanh Xuân, Hà Nội, Việt Nam.</p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 mb-5 mb-md-0">
                         <div class="footer__address">
                             <h3 class="footer__address-name">Chi nhánh Hồ Chí Minh</h3>
                             <p class="footer__address-info">Trung tâm Thương mại Sài Gòn thứ 22, 37 Tôn Đức Thắng, Phường Bến Nghé, Quận 1, TP.HCM, Việt Nam.</p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-4">
                         <div class="footer__address">
                             <h3 class="footer__address-name">Tokyo Office</h3>
                             <p class="footer__address-info">Tầng 4, Tòa nhà Shinei, Toyo-cho, 4-3-1 Toyo, Koto-ku, Tokyo 135-0016</p>

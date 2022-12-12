@@ -7,5 +7,10 @@ $( document ).ready(function() {
         autoplaySpeed: 2000,
         prevArrow: '<button type="button" class="slick-prev carousel-btn carousel-btn-prev" style="width: 60px; height: 60px;"><i class="fa-regular fa-arrow-left"></i></button>',
         nextArrow: '<button type="button" class="slick-next carousel-btn carousel-btn-next" style="width: 60px; height: 60px;"><i class="fa-regular fa-arrow-right"></i></button>',
+        responsive: []
+    });
+
+    $(".header .header__inner .header__btn-bars").click(function(){
+        $(".header .header__menu").slideToggle();
     });
 });
