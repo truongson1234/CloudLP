@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
     <div id="main">
@@ -26,26 +27,33 @@
                             <a class="menu-link" href="#">Giới thiệu</a>
                         </li>
                         <li class="menu-item">
-                            <a class="menu-link" href="#">Google Workspace</a>
+                            <a class="menu-link" href="./index.html#google-workspace">Google Workspace</a>
                         </li>
                         <li class="menu-item">
-                            <a class="menu-link" href="#">Zoho Workspace</a>
+                            <a class="menu-link" href="./index.html#zoho-workspace">Zoho Workspace</a>
                         </li>
                         <li class="menu-item">
-                            <a class="menu-link" href="#">Giải pháp văn phòng không giấy tờ</a>
+                            <a class="menu-link" href="./index.html#office-solutions">Giải pháp văn phòng không giấy tờ</a>
                         </li>
-                        <li class="menu-item">
-                            <a class="menu-link" href="#">Tin tức</a>
+                        <li class="menu-item d-none d-md-block">
+                            <a class="menu-link" href="./index.html#news">Tin tức</a>
                         </li>
                     </ul>
+                    <button class="header__btn-bars">
+                        <i class="fa-regular fa-bars"></i>
+                    </button>
                     <div class="header__hotline">
                         <a class="hotline-btn btn-advise" href="tel:02466886760">Hotline 0246.6886760</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="banner">
-            <img src="./assets/img/banner.png" alt="banner">
+        <div class="banner mt-5">
+            <a class="banner__logo d-block d-md-none" href="./index.html">
+                <img class="logo-img" src="./assets/img/logo.svg" alt="iboc">
+                <span class="logo-text">Intelligent Back Office on Cloud</span>
+            </a>
+            <img class="d-none d-md-block" src="./assets/img/banner.png" alt="banner">
         </div>        
         <div class="brand">
             <div class="container py-5">
@@ -54,22 +62,24 @@
                 </h1>
                 <div class="brand__inner">
                     <div class="brand__group">
-                        <div class="row">
-                            <div class="col">
-                                <div class="brand__group-img member-item">
-                                    <img src="./assets/img/codelovers-logo.svg" alt="codelovers">
+                        <div class="brand__group-member">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="brand__group-img member-item">
+                                        <img src="./assets/img/codelovers-logo.svg" alt="codelovers">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <div class="brand__group-img member-item">
-                                    <img src="./assets/img/nextset-logo.svg" alt="nextset">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="brand__group-img member-item">
+                                        <img src="./assets/img/nextset-logo.svg" alt="nextset">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col">
-                                <div class="brand__group-img member-item">
-                                    <img src="./assets/img/frontier-port-logo.svg" alt="frontier-port">
+                                <div class="col">
+                                    <div class="brand__group-img member-item">
+                                        <img src="./assets/img/frontier-port-logo.svg" alt="frontier-port">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="brand__partner mt-5">
+                <div class="brand__partner mb-5 mb-sm-0 mt-5">
                     <h3 class="brand__partner-title">
                         Đối tác Premium của
                     </h3>
@@ -100,10 +110,31 @@
                         </div>
                     </div>
                 </div>
+                <div class="brand__group-member mobi">
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <div class="member-item">
+                                <img src="./assets/img/nextset-logo.svg" alt="nextset">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="member-item">
+                                <img src="./assets/img/frontier-port-logo.svg" alt="frontier-port">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="member-item">
+                                <img src="./assets/img/codelovers-logo.svg" alt="codelovers">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="solution-2nd">
-            <div class="container-fluid py-5">
+            <div class="container-fluid pt-5 pb-0 pb-md-5">
                 <div class="solution-2nd__header mb-5">
                     <h1 class="solution-2nd__title">
                         Giải pháp của chúng tôi
@@ -113,11 +144,11 @@
                     </p>
                 </div>
                 <div class="solution-2nd__body">
-                    <div class="row">
-                        <div class="solution-2nd__img col">
-                            <img src="./assets/img/solution-img (3).png" alt="solution">
+                    <div class="row align-items-stretch">
+                        <div class="solution-2nd__img col d-none d-sm-block">
+                            <img src="./assets/img/solution-img-3.png" alt="solution">
                         </div>
-                        <div class="content-col content-1 col">
+                        <div class="content-col content-1 col-12 col-sm-6">
                             <div class="solution-2nd__content">
                                 <h3 class="solution-2nd__name">System development/ offshore development</h3>
                                 <ul class="solution-2nd__select">
@@ -141,7 +172,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="content-col content-2 col">
+                        <div class="content-col content-2 col-12 col-sm-6">
                             <div class="solution-2nd__content">
                                 <h3 class="solution-2nd__name">IT Solutions</h3>
                                 <ul class="solution-2nd__select">
@@ -163,15 +194,15 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="solution-2nd__img col">
-                            <img src="./assets/img/solution-img (2).png" alt="solution">
+                        <div class="solution-2nd__img col d-none d-sm-block">
+                            <img src="./assets/img/solution-img-2.png" alt="solution">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="solution-2nd__img col">
-                            <img src="./assets/img/solution-img (1).png" alt="solution">
+                        <div class="solution-2nd__img col d-none d-sm-block">
+                            <img src="./assets/img/solution-img-1.png" alt="solution">
                         </div>
-                        <div class="content-col content-3 col">
+                        <div class="content-col content-3 col-12 col-sm-6">
                             <div class="solution-2nd__content">
                                 <h3 class="solution-2nd__name">SAAS/CLOUD Services</h3>
                                 <ul class="solution-2nd__select">
@@ -196,7 +227,7 @@
             <div class="container">
                 <div class="row">
                     <div class="footer__nav col py-3">
-                        <a class="footer__logo" href="./index.html">
+                        <a class="footer__logo mb-3 mb-xl-0" href="./index.html">
                             <img class="footer__logo-img" src="./assets/img/logo.svg" alt="iboc">
                             <span class="footer__logo-text">Intelligent Back Office on Cloud</span>
                         </a>
@@ -207,27 +238,22 @@
                                 </a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#" class="footer__menu-link">
+                                <a href="./index.html#google-workspace" class="footer__menu-link">
                                     Google Workspace
                                 </a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#" class="footer__menu-link">
+                                <a href="./index.html#zoho-workspace" class="footer__menu-link">
                                     Zoho Workspace
                                 </a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="#" class="footer__menu-link">
+                                <a href="./index.html#office-solutions" class="footer__menu-link">
                                     Giải pháp văn phòng không giấy tờ
                                 </a>
                             </li>
-                            <li class="footer__menu-item">
-                                <a href="#" class="footer__menu-link">
-                                    Domain
-                                </a>
-                            </li>
-                            <li class="footer__menu-item">
-                                <a href="#" class="footer__menu-link">
+                            <li class="footer__menu-item d-none d-md-block">
+                                <a href="./index.html#news" class="footer__menu-link">
                                     Tin tức
                                 </a>
                             </li>
@@ -235,19 +261,19 @@
                     </div>
                 </div>
                 <div class="footer__body row py-5">
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 mb-5 mb-md-0">
                         <div class="footer__address">
                             <h3 class="footer__address-name">Trụ sở chính Hà Nội</h3>
                             <p class="footer__address-info">Tầng 5, tòa nhà ACCI, số. 210 Lê Trọng Tấn, Phường Khương Mai, Quận Thanh Xuân, Hà Nội, Việt Nam.</p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 mb-5 mb-md-0">
                         <div class="footer__address">
                             <h3 class="footer__address-name">Chi nhánh Hồ Chí Minh</h3>
                             <p class="footer__address-info">Trung tâm Thương mại Sài Gòn thứ 22, 37 Tôn Đức Thắng, Phường Bến Nghé, Quận 1, TP.HCM, Việt Nam.</p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-4">
                         <div class="footer__address">
                             <h3 class="footer__address-name">Tokyo Office</h3>
                             <p class="footer__address-info">Tầng 4, Tòa nhà Shinei, Toyo-cho, 4-3-1 Toyo, Koto-ku, Tokyo 135-0016</p>
