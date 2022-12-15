@@ -129,7 +129,7 @@ html{
     width: 1px;
     height: 20px;
     margin: 0 5px;
-    border: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
 }
 .header .header__lang .header__lang-link{
     color: #E0E0E0;

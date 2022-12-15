@@ -116,6 +116,21 @@
                 "title": "Tokyo Office",
                 "local": "Tầng 4, Tòa nhà Shinei, Toyo-cho, 4-3-1 Toyo, Koto-ku, Tokyo 135-0016"
             }
+        },
+        "register-modal": {
+            "title": "Thông tin đăng ký",
+            "btn-submit": "Gửi thông tin đăng ký",
+            "form": {
+                "item-1": "Tên của anh/chị",
+                "item-2": "Số điện thoại của anh/chị",
+                "item-3": "Email của anh/chị",
+                "item-4": "Tên công ty/tổ chức anh/chị đang làm việc",
+                "item-5": "Số lượng nhân sự tại công ty/ tổ chức"
+            }
+        },
+        "confirm-modal": {
+            "title": "Cảm ơn anh/chị!",
+            "sub-title": "CodeLovers Việt Nam sẽ liên hệ anh/chị trong thời gian sớm nhất."
         }
     }
 }

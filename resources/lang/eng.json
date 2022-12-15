@@ -116,6 +116,21 @@
                 "title": "Tokyo Office",
                 "local": "〒135-0016 4-3-1 Toyo, Koto-ku, Tokyo Toyocho Shinei Building 4F"
             }
+        },
+        "register-modal": {
+            "title": "Registration information",
+            "btn-submit": "Submit registration information",
+            "form": {
+                "item-1": "Your name",
+                "item-2": "Your phone number",
+                "item-3": "Your email",
+                "item-4": "Name of the company/organization you are working for",
+                "item-5": "Number of employees at the company/organization"
+            }
+        },
+        "confirm-modal": {
+            "title": "Thank you!",
+            "sub-title": "CodeLovers Vietnam will contact you as soon as possible."
         }
     }
 }
