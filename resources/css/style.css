@@ -114,7 +114,30 @@ html{
 }
 .header .header__hotline .hotline-btn{
 }
-
+.header .header__block-right{
+    display: flex;
+}
+.header .header__lang{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.header .header__lang .header__lang-icon{
+    margin-right: 5px;
+}
+.header .header__lang .header__lang-line{
+    width: 1px;
+    height: 20px;
+    margin: 0 5px;
+    border: 1px solid #E0E0E0;
+}
+.header .header__lang .header__lang-link{
+    color: #E0E0E0;
+    text-transform: uppercase;
+}
+.header .header__lang .header__lang-link.active{
+    color: #000;
+}
 /* slideshow */
 .slideshow{
     --height-carousel: 32rem;

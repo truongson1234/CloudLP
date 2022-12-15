@@ -1,7 +1,6 @@
 import langEng from '../lang/eng.json' assert {type: 'json'};
 import langVie from '../lang/vie.json' assert {type: 'json'};
 
-// console.log(langVi.translation);
 i18next.init({
     lng: 'eng',
     resources: {
@@ -17,6 +16,7 @@ i18next.init({
     $("#main").localize();
 
     $('.header .header__lang .header__lang-link').click(function() {
+        $(".header .header__lang .header__lang-link").toggleClass('active')
         i18next.changeLanguage(this.innerHTML);
         $("#main").localize();
     });
