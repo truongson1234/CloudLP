@@ -133,6 +133,7 @@ html{
 }
 .header .header__lang .header__lang-link{
     color: #E0E0E0;
+    font-size: 13px;
     text-transform: uppercase;
 }
 .header .header__lang .header__lang-link.active{
