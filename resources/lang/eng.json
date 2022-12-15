@@ -1,0 +1,87 @@
+{
+    "translation": {
+        "header": {
+            "menu": {
+                "introduce": "Introduction",
+                "google-workspace": "Google Workspace",
+                "zoho-workplace": "Zoho Workplace",
+                "office-solutions": "Paperless Office Solution"
+            }
+        },
+        "slideshow": {
+            "title": "We provide SAAS solutions to support Enterprise Digital Transformation and Work from Anywhere"
+        },
+        "q2a": {
+            "btn-advise": "Free Consultation",
+            "problem-1": {
+                "title": "Problem",
+                "topic": "Internal Collaboration",
+                "question-1": {
+                    "group-name": "Big Companies",
+                    "list": {
+                        "item-1": "Need the integrity of information shared among departments",
+                        "item-2": "Need a safe storage for information"
+                    }
+                },
+                "question-2": {
+                    "group-name": "Startups - SMEs",
+                    "list": {
+                        "item-1": "Need seamless connections for remote working",
+                        "item-2": "Need a safe storage for information"
+                    }
+                }
+            },
+            "advantages-1": {
+                "title": "Solutions",
+                "list-1": {
+                    "item-1": "Email domain for enterprises",
+                    "item-2": "30GB to 5TB cloud storage per user ",
+                    "item-3": "Unlimited cloud storage for enterprises",
+                    "item-4": "Online meeting for 100 to 500 participants",
+                    "item-5": "Flexible and smart office suite"
+                },
+                "list-2": {
+                    "item-1": "Email domain for enterprises from Zoho",
+                    "item-2": "10GB to 100GB cloud storage per user",
+                    "item-3": "Online meeting for 10 to 100 participants",
+                    "item-4": "Powerful office suite",
+                    "item-5": "Good pricing plans for startups and SMEs"
+                }
+            },
+            "problem-2": {
+                "title": "Problem",
+                "topic": "Enterprise Operation",
+                "question-1": {
+                    "group-name": "Big Companies",
+                    "list": {
+                        "item-1": "Need to simplify internal procedures"
+                    }
+                },
+                "question-2": {
+                    "group-name": "Startups - SMEs",
+                    "list": {
+                        "item-1": "Need to complete internal procedures"
+                    }
+                }
+            },
+            "advantages-2": {
+                "title": "Paperless Office Solution",
+                "list-1": {
+                    "item-1": "An extension suite on cloud for Google Workspace",
+                    "item-2": "Help companies operate in a paperless way",
+                    "item-3": "Help companies reduce time for internal procedures"
+                },
+                "list-2": {
+                    "item-1": "Attendance Management",
+                    "item-2": "Recruitment Management",
+                    "item-3": "Staff Management",
+                    "item-4": "Device Management",
+                    "item-5": "Purchase Management",
+                    "item-6": "Transaction Management",
+                    "item-7": "Approval Management",
+                    "item-8": "Remote Work Management"
+                }
+            }
+        }
+    }
+}

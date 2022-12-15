@@ -1,0 +1,87 @@
+{
+    "translation": {
+        "header": {
+            "menu": {
+                "introduce": "Giới thiệu",
+                "google-workspace": "Google Workspace",
+                "zoho-workplace": "Zoho Workplace",
+                "office-solutions": "Giải pháp văn phòng không giấy tờ"
+            }
+        },
+        "slideshow": {
+            "title": "Cung cấp các giải pháp SAAS hỗ trợ doanh nghiệp chuyển đổi số triệt để và làm việc từ bất kỳ đâu"
+        },
+        "q2a": {
+            "btn-advise": "Tư vấn miễn phí",
+            "problem-1": {
+                "title": "Bài toán kết nối",
+                "topic": "Cộng tác nội bộ doanh nghiệp",
+                "question-1": {
+                    "group-name": "Nhóm Doanh nghiệp lớn",
+                    "list": {
+                        "item-1": "Cần truyền tải thông tin một cách nhất quán giữa các bộ phận",
+                        "item-2": "Cần kênh lưu trữ thông tin bảo mật"
+                    }
+                },
+                "question-2": {
+                    "group-name": "Nhóm Startups - SMEs",
+                    "list": {
+                        "item-1": "Cần đảm bảo kết nối khi làm việc từ xa",
+                        "item-2": "Cần kênh lưu trữ thông tin an toàn"
+                    }
+                }
+            },
+            "advantages-1": {
+                "title": "Giải pháp phù hợp",
+                "list-1": {
+                    "item-1": "Email bảo mật theo tên miền doanh nghiệp",
+                    "item-2": "Lưu trữ đám mây 30GB đến 5TB mỗi người dùng",
+                    "item-3": "Lưu trữ đám mây không giới hạn cho doanh nghiệp",
+                    "item-4": "Họp trực tuyến từ 100 đến 500 người tham dự",
+                    "item-5": "Bộ Office online linh hoạt và thông minh"
+                },
+                "list-2": {
+                    "item-1": "Email từ Zoho theo tên miền doanh nghiệp",
+                    "item-2": "Lưu trữ đám mây 10GB đến 100GB mỗi người dùng",
+                    "item-3": "Họp trực tuyến từ 10 đến 100 người tham dự",
+                    "item-4": "Bộ công cụ Office mạnh mẽ",
+                    "item-5": "Chi phí rẻ phù hợp với Startup và SMEs"
+                }
+            },
+            "problem-2": {
+                "title": "Bài toán vận hành",
+                "topic": "Các quy trình trong doanh nghiệp",
+                "question-1": {
+                    "group-name": "Nhóm Doanh nghiệp lớn",
+                    "list": {
+                        "item-1": "Cần đơn giản hóa các quy trình làm việc do quá nhiều thủ tục, giấy tờ cần phê duyệt"
+                    }
+                },
+                "question-2": {
+                    "group-name": "Nhóm Startups - SMEs",
+                    "list": {
+                        "item-1": "Cần hoàn thiện quy trình làm việc và soạn các mẫu văn bản phê duyệt để vận hành doanh nghiệp"
+                    }
+                }
+            },
+            "advantages-2": {
+                "title": "Giải pháp văn phòng không giấy tờ",
+                "list-1": {
+                    "item-1": "Bộ extension trên Cloud đi kèm với Google Workspace",
+                    "item-2": "Hỗ trợ vận hành các quy trình doanh nghiệp với tiêu chí Paperless (Tối giản hóa thủ tục giấy tờ)",
+                    "item-3": "Giúp doanh nghiệp rút ngắn thời gian cho các quy trình làm việc nội bộ"
+                },
+                "list-2": {
+                    "item-1": "Quản lý chấm công",
+                    "item-2": "Quản lý tuyển dụng",
+                    "item-3": "Quản lý nhân sự",
+                    "item-4": "Quản lý thiết bị",
+                    "item-5": "Quản lý mua hàng",
+                    "item-6": "Quản lý thanh toán",
+                    "item-7": "Quản lý duyệt giấy tờ số",
+                    "item-8": "Quản lý lịch làm việc từ xa"
+                }
+            }
+        }
+    }
+}
