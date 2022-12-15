@@ -97,6 +97,41 @@
             "title": "Kết nối với chúng tôi để được tư vấn",
             "content": "Liên hệ với chúng tôi để được tư vấn giải pháp và dịch vụ tốt nhất cho doanh nghiệp của bạn và nhận báo giá dịch vụ tốt nhất"
         },
+        "brand": {
+            "title": "CodeLovers Việt Nam là một thành viên của Sateraito Office Group từ Nhật Bản"
+        },
+        "solution-2nd": {
+            "title": "Giải pháp của chúng tôi",
+            "sub-title": "Chúng tôi đã và đang hỗ trợ hơn 4000 doanh nghiệp tại Việt Nam và Nhật Bản trong quá trình thực hiện chiến lược chuyển đổi số.",
+            "content-1": {
+                "name": "System development/ offshore development",
+                "list": {
+                    "item-1": "Phát triển hệ thống web/app",
+                    "item-2": "Tích hợp hệ thống",
+                    "item-3": "Hỗ trợ phát triển mô hình kinh doanh mới",
+                    "item-4": "Bảo trì và sửa đổi hệ thống sẵn có",
+                    "item-5": "Dịch vụ phát triển labo offshore"
+                }
+            },
+            "content-2": {
+                "name": "IT Solutions",
+                "list": {
+                    "item-1": "Thúc đẩy chuyển đổi số với các công nghệ mới",
+                    "item-2": "Tăng hiệu quả kinh doanh B2B",
+                    "item-3": "Phát triển AI/Blockchain",
+                    "item-4": "Tối ưu cho mô hình làm việc từ xa",
+                    "item-5": "Phát triển tiện ích đi kèm Google Workspace"
+                }
+            },
+            "content-3": {
+                "name": "SAAS/CLOUD Services",
+                "list": {
+                    "item-1": "Google Workspace (GW)",
+                    "item-2": "Zoho Workplace",
+                    "item-3": "Phát triển và vận hành các tiện ích trên Cloud"
+                }
+            }
+        },
         "footer": {
             "menu": {
                 "introduce": "Giới thiệu",

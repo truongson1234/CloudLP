@@ -97,6 +97,41 @@
             "title": "Get in touch with us",
             "content": "Connect with us to get the best digital transformation solution for your company"
         },
+        "brand": {
+            "title": "CodeLovers Vietnam is a member of Sateraito Office group from Japan"
+        },
+        "solution-2nd": {
+            "title": "Our Solutions",
+            "sub-title": "We have been supporting more than 4000 companies from Vietnam and Japan with the digital transformation strategy",
+            "content-1": {
+                "name": "System development/ offshore development",
+                "list": {
+                    "item-1": "App/web/business system development",
+                    "item-2": "System migration",
+                    "item-3": "New business development support service",
+                    "item-4": " Existing system modification/maintenance service",
+                    "item-5": "Offshore laboratory development service"
+                }
+            },
+            "content-2": {
+                "name": "IT Solutions",
+                "list": {
+                    "item-1": "Promote DX with advanced technology",
+                    "item-2": "B2B business efficiency support",
+                    "item-3": "AI/blockchain utilization",
+                    "item-4": "Remote work/work style reform",
+                    "item-5": "Business add-on for Google Workspace"
+                }
+            },
+            "content-3": {
+                "name": "SAAS/CLOUD Services",
+                "list": {
+                    "item-1": "Google Workspace (GW) license reseller",
+                    "item-2": "Zoho License Reseller",
+                    "item-3": "Cloud service operation of GW business add-on portal"
+                }
+            }
+        },
         "footer": {
             "menu": {
                 "introduce": "Introduction",

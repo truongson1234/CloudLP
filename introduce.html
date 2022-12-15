@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CloudLP</title>
-    <link rel="icon" href="./assets/img/icon-codelovers.png">
-    <link rel="stylesheet" href="./assets/lib/fontawesome/all.min.css">
+    <link rel="icon" href="./resources/img/icon-codelovers.png">
+    <link rel="stylesheet" href="./resources/lib/fontawesome/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./resources/css/reset.css">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-i18next/0.0.14/i18next-jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/2.0.22/i18next.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="main">
@@ -19,65 +22,73 @@
             <div class="container">
                 <div class="header__inner">
                     <a class="header__logo" href="./index.html">
-                        <img class="logo-img" src="./assets/img/logo.svg" alt="iboc">
+                        <img class="logo-img" src="./resources/img/logo.svg" alt="iboc">
                         <span class="logo-text">Intelligent Back Office on Cloud</span>
                     </a>
                     <div class="header__menu">
                         <ul class="header__menu-inner">
                             <li class="menu-item">
-                                <a class="menu-link" href="#">Giới thiệu</a>
+                                <a class="menu-link" href="#" data-i18n="header.menu.introduce"></a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="./index.html#google-workspace">Google Workspace</a>
+                                <a class="menu-link" href="#google-workspace" data-i18n="header.menu.google-workspace"></a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="./index.html#zoho-workspace">Zoho Workspace</a>
+                                <a class="menu-link" href="#zoho-workplace" data-i18n="header.menu.zoho-workplace"></a>
                             </li>
                             <li class="menu-item">
-                                <a class="menu-link" href="./index.html#office-solutions">Giải pháp văn phòng không giấy tờ</a>
+                                <a class="menu-link" href="#office-solutions" data-i18n="header.menu.office-solutions"></a>
                             </li>
                         </ul>
                     </div>
                     <button class="header__btn-bars">
                         <i class="fa-regular fa-bars"></i>
                     </button>
-                    <div class="header__hotline">
-                        <a class="hotline-btn btn-advise" href="tel:02466886760">Hotline 0246.6886760</a>
+                    <div class="header__block-right">
+                        <div class="header__hotline">
+                            <a class="hotline-btn btn-advise" href="tel:02466886760">Hotline 0246.6886760</a>
+                        </div>
+                        <div class="header__lang">
+                            <div class="header__lang-icon">
+                                <i class="fa-regular fa-globe"></i>
+                            </div>
+                            <a class="header__lang-link active" href="#">eng</a>
+                            <span class="header__lang-line"></span>
+                            <a class="header__lang-link" href="#">vie</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="banner mt-5">
             <a class="banner__logo d-block d-md-none" href="./index.html">
-                <img class="logo-img" src="./assets/img/logo.svg" alt="iboc">
+                <img class="logo-img" src="./resources/img/logo.svg" alt="iboc">
                 <span class="logo-text">Intelligent Back Office on Cloud</span>
             </a>
-            <img class="d-none d-md-block" src="./assets/img/banner.png" alt="banner">
+            <img class="d-none d-md-block" src="./resources/img/banner.png" alt="banner">
         </div>        
         <div class="brand">
             <div class="container py-5">
-                <h1 class="brand__title mb-5">
-                    CodeLovers Việt Nam là một thành viên của Sateraito Office Group từ Nhật Bản
-                </h1>
+                <h1 class="brand__title mb-5" data-i18n="brand.title"></h1>
                 <div class="brand__inner">
                     <div class="brand__group">
                         <div class="brand__group-member">
                             <div class="row">
                                 <div class="col">
                                     <div class="brand__group-img member-item">
-                                        <img src="./assets/img/codelovers-logo.svg" alt="codelovers">
+                                        <img src="./resources/img/codelovers-logo.svg" alt="codelovers">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
                                     <div class="brand__group-img member-item">
-                                        <img src="./assets/img/nextset-logo.svg" alt="nextset">
+                                        <img src="./resources/img/nextset-logo.svg" alt="nextset">
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="brand__group-img member-item">
-                                        <img src="./assets/img/frontier-port-logo.svg" alt="frontier-port">
+                                        <img src="./resources/img/frontier-port-logo.svg" alt="frontier-port">
                                     </div>
                                 </div>
                             </div>
@@ -85,7 +96,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="brand__group-img big-img">
-                                    <img src="./assets/img/sateraito-office.png" alt="sateraito-office">
+                                    <img src="./resources/img/sateraito-office.png" alt="sateraito-office">
                                 </div>
                             </div>
                         </div>
@@ -97,15 +108,15 @@
                     </h3>
                     <div class="brand__partner-inner">
                         <div class="brand__partner-logo">
-                            <img src="./assets/img/google-logo.svg" alt="google">
+                            <img src="./resources/img/google-logo.svg" alt="google">
                         </div>
                         <span class="brand__partner-line"></span>
                         <div class="brand__partner-logo">
-                            <img src="./assets/img/microsoft-logo.svg" alt="microsoft">
+                            <img src="./resources/img/microsoft-logo.svg" alt="microsoft">
                         </div>
                         <span class="brand__partner-line"></span>
                         <div class="brand__partner-logo">
-                            <img src="./assets/img/meta-platforms-logo.svg" alt="meta-platforms">
+                            <img src="./resources/img/meta-platforms-logo.svg" alt="meta-platforms">
                         </div>
                     </div>
                 </div>
@@ -113,19 +124,19 @@
                     <div class="row mb-3">
                         <div class="col-6">
                             <div class="member-item">
-                                <img src="./assets/img/nextset-logo.svg" alt="nextset">
+                                <img src="./resources/img/nextset-logo.svg" alt="nextset">
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="member-item">
-                                <img src="./assets/img/frontier-port-logo.svg" alt="frontier-port">
+                                <img src="./resources/img/frontier-port-logo.svg" alt="frontier-port">
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
                             <div class="member-item">
-                                <img src="./assets/img/codelovers-logo.svg" alt="codelovers">
+                                <img src="./resources/img/codelovers-logo.svg" alt="codelovers">
                             </div>
                         </div>
                     </div>
@@ -135,37 +146,23 @@
         <div class="solution-2nd">
             <div class="container-fluid pt-5 pb-0 pb-md-5">
                 <div class="solution-2nd__header mb-5">
-                    <h1 class="solution-2nd__title">
-                        Giải pháp của chúng tôi
-                    </h1>
-                    <p class="solution-2nd__sub-title">
-                        Chúng tôi đã và đang hỗ trợ hơn 4000 doanh nghiệp tại Việt Nam và Nhật Bản trong quá trình thực hiện chiến lược chuyển đổi số.
-                    </p>
+                    <h1 class="solution-2nd__title" data-i18n="solution-2nd.title"></h1>
+                    <p class="solution-2nd__sub-title" data-i18n="solution-2nd.sub-title"></p>
                 </div>
                 <div class="solution-2nd__body">
                     <div class="row align-items-stretch">
                         <div class="solution-2nd__img col d-none d-sm-block">
-                            <img src="./assets/img/solution-img-3.png" alt="solution">
+                            <img src="./resources/img/solution-img-3.png" alt="solution">
                         </div>
                         <div class="content-col content-1 col-12 col-sm-6">
                             <div class="solution-2nd__content">
-                                <h3 class="solution-2nd__name">System development/ offshore development</h3>
+                                <h3 class="solution-2nd__name" data-i18n="solution-2nd.content-1.name"></h3>
                                 <ul class="solution-2nd__select">
-                                    <li class="solution-2nd__option">
-                                        Phát triển hệ thống web/app
-                                    </li>
-                                    <li class="solution-2nd__option">
-                                        Tích hợp hệ thống
-                                    </li>
-                                    <li class="solution-2nd__option">
-                                        Hỗ trợ phát triển mô hình kinh doanh mới
-                                    </li>
-                                    <li class="solution-2nd__option">
-                                        Bảo trì và sửa đổi hệ thống sẵn có
-                                    </li>
-                                    <li class="solution-2nd__option">
-                                        Dịch vụ phát triển labo offshore
-                                    </li>
+                                    <li class="solution-2nd__option" data-i18n="solution-2nd.content-1.list.item-1"></li>
+                                    <li class="solution-2nd__option" data-i18n="solution-2nd.content-1.list.item-2"></li>
+                                    <li class="solution-2nd__option" data-i18n="solution-2nd.content-1.list.item-3"></li>
+                                    <li class="solution-2nd__option" data-i18n="solution-2nd.content-1.list.item-4"></li>
+                                    <li class="solution-2nd__option" data-i18n="solution-2nd.content-1.list.item-5"></li>
                                 </ul>
                             </div>
                         </div>
@@ -175,45 +172,29 @@
                             <div class="solution-2nd__content">
                                 <h3 class="solution-2nd__name">IT Solutions</h3>
                                 <ul class="solution-2nd__select">
-                                    <li class="solution-2nd__option">
-                                        Thúc đẩy chuyển đổi số với các công nghệ mới
-                                    </li>
-                                    <li class="solution-2nd__option">
-                                        Tăng hiệu quả kinh doanh B2B
-                                    </li>
-                                    <li class="solution-2nd__option">
-                                        Phát triển AI/Blockchain
-                                    </li>
-                                    <li class="solution-2nd__option">
-                                        Tối ưu cho mô hình làm việc từ xa
-                                    </li>
-                                    <li class="solution-2nd__option">
-                                        Phát triển tiện ích đi kèm Google Workspace
-                                    </li>
+                                    <li class="solution-2nd__option" data-i18n="solution-2nd.content-2.list.item-1"></li>
+                                    <li class="solution-2nd__option" data-i18n="solution-2nd.content-2.list.item-2"></li>
+                                    <li class="solution-2nd__option" data-i18n="solution-2nd.content-2.list.item-3"></li>
+                                    <li class="solution-2nd__option" data-i18n="solution-2nd.content-2.list.item-4"></li>
+                                    <li class="solution-2nd__option" data-i18n="solution-2nd.content-2.list.item-5"></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="solution-2nd__img col d-none d-sm-block">
-                            <img src="./assets/img/solution-img-2.png" alt="solution">
+                            <img src="./resources/img/solution-img-2.png" alt="solution">
                         </div>
                     </div>
                     <div class="row">
                         <div class="solution-2nd__img col d-none d-sm-block">
-                            <img src="./assets/img/solution-img-1.png" alt="solution">
+                            <img src="./resources/img/solution-img-1.png" alt="solution">
                         </div>
                         <div class="content-col content-3 col-12 col-sm-6">
                             <div class="solution-2nd__content">
                                 <h3 class="solution-2nd__name">SAAS/CLOUD Services</h3>
                                 <ul class="solution-2nd__select">
-                                    <li class="solution-2nd__option">
-                                        Google Workspace (GW)
-                                    </li>
-                                    <li class="solution-2nd__option">
-                                        Zoho Workplace
-                                    </li>
-                                    <li class="solution-2nd__option">
-                                        Phát triển và vận hành các tiện ích trên Cloud
-                                    </li>
+                                    <li class="solution-2nd__option" data-i18n="solution-2nd.content-3.list.item-1"></li>
+                                    <li class="solution-2nd__option" data-i18n="solution-2nd.content-3.list.item-2"></li>
+                                    <li class="solution-2nd__option" data-i18n="solution-2nd.content-3.list.item-3"></li>
                                 </ul>
                             </div>
                         </div>
@@ -227,29 +208,21 @@
                 <div class="row">
                     <div class="footer__nav col py-3">
                         <a class="footer__logo mb-3 mb-xl-0" href="./index.html">
-                            <img class="footer__logo-img" src="./assets/img/logo.svg" alt="iboc">
+                            <img class="footer__logo-img" src="./resources/img/logo.svg" alt="iboc">
                             <span class="footer__logo-text">Intelligent Back Office on Cloud</span>
                         </a>
                         <ul class="footer__menu">
                             <li class="footer__menu-item">
-                                <a href="#" class="footer__menu-link">
-                                    Giới thiệu
-                                </a>
+                                <a href="#" class="footer__menu-link" data-i18n="footer.menu.introduce"></a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="./index.html#google-workspace" class="footer__menu-link">
-                                    Google Workspace
-                                </a>
+                                <a href="#google-workspace" class="footer__menu-link" data-i18n="footer.menu.google-workspace"></a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="./index.html#zoho-workspace" class="footer__menu-link">
-                                    Zoho Workspace
-                                </a>
+                                <a href="#zoho-workplace" class="footer__menu-link" data-i18n="footer.menu.zoho-workplace"></a>
                             </li>
                             <li class="footer__menu-item">
-                                <a href="./index.html#office-solutions" class="footer__menu-link">
-                                    Giải pháp văn phòng không giấy tờ
-                                </a>
+                                <a href="#office-solutions" class="footer__menu-link" data-i18n="footer.menu.office-solutions"></a>
                             </li>
                         </ul>
                     </div>
@@ -257,20 +230,20 @@
                 <div class="footer__body row py-5">
                     <div class="col-12 col-md-4 mb-5 mb-md-0">
                         <div class="footer__address">
-                            <h3 class="footer__address-name">Trụ sở chính Hà Nội</h3>
-                            <p class="footer__address-info">Tầng 5, tòa nhà ACCI, số. 210 Lê Trọng Tấn, Phường Khương Mai, Quận Thanh Xuân, Hà Nội, Việt Nam.</p>
+                            <h3 class="footer__address-name" data-i18n="footer.address-1.title">Trụ sở chính Hà Nội</h3>
+                            <p class="footer__address-info" data-i18n="footer.address-1.local">Tầng 5, tòa nhà ACCI, số. 210 Lê Trọng Tấn, Phường Khương Mai, Quận Thanh Xuân, Hà Nội, Việt Nam.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 mb-5 mb-md-0">
                         <div class="footer__address">
-                            <h3 class="footer__address-name">Chi nhánh Hồ Chí Minh</h3>
-                            <p class="footer__address-info">Trung tâm Thương mại Sài Gòn thứ 22, 37 Tôn Đức Thắng, Phường Bến Nghé, Quận 1, TP.HCM, Việt Nam.</p>
+                            <h3 class="footer__address-name" data-i18n="footer.address-1.title">Chi nhánh Hồ Chí Minh</h3>
+                            <p class="footer__address-info" data-i18n="footer.address-1.local">Trung tâm Thương mại Sài Gòn thứ 22, 37 Tôn Đức Thắng, Phường Bến Nghé, Quận 1, TP.HCM, Việt Nam.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="footer__address">
-                            <h3 class="footer__address-name">Tokyo Office</h3>
-                            <p class="footer__address-info">Tầng 4, Tòa nhà Shinei, Toyo-cho, 4-3-1 Toyo, Koto-ku, Tokyo 135-0016</p>
+                            <h3 class="footer__address-name" data-i18n="footer.address-1.title">Tokyo Office</h3>
+                            <p class="footer__address-info" data-i18n="footer.address-1.local">Tầng 4, Tòa nhà Shinei, Toyo-cho, 4-3-1 Toyo, Koto-ku, Tokyo 135-0016</p>
                         </div>
                     </div>
                 </div>
@@ -282,10 +255,11 @@
             </div>
         </div>
     </div>
-    <script src="./assets/lib/fontawesome/all.min.js"></script>
+    <script src="./resources/lib/fontawesome/all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="./assets/js/app.js"></script>
+    <script type="module" src="./resources/js/lang.js"></script>
+    <script src="./resources/js/app.js"></script>
 </body>
 </html>

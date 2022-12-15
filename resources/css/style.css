@@ -401,6 +401,7 @@ html{
 }
 .reason .reason__item:hover .reason__item-icon{
     background-color: var(--hover-primary-color);
+    transition: var(--tran-04);
 }
 .reason .reason__item:hover .reason__item-icon .icon{
     color: #ffffff;
