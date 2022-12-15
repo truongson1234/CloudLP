@@ -82,6 +82,40 @@
                     "item-8": "Remote Work Management"
                 }
             }
+        },
+        "reason": {
+            "title": "Reasons to choose CodeLovers Vietnam as a digital transformation partner",
+            "list": {
+                "item-1": "We are an authorized partner of Google Cloud and Zoho Corporation",
+                "item-2": "We have experts with more than 10 years of experience developing digital transformation solutions",
+                "item-3": "We offer ompetitive prices along with good discounts",
+                "item-4": "We offer 24/7 support for customers' questions",
+                "item-5": "We strictly comply with ISO 27001 and ISO 9001 for information security"
+            }
+        },
+        "connect": {
+            "title": "Get in touch with us",
+            "content": "Connect with us to get the best digital transformation solution for your company"
+        },
+        "footer": {
+            "menu": {
+                "introduce": "Introduction",
+                "google-workspace": "Google Workspace",
+                "zoho-workplace": "Zoho Workplace",
+                "office-solutions": "Paperless Office Solution"
+            },
+            "address-1": {
+                "title": "Head office",
+                "local": "5th Floor, ACCI Tower, No. 210 Le Trong Tan street, Khuong Mai, Thanh Xuan, Ha Noi, Vietnam"
+            },
+            "address-2": {
+                "title": "HCM Office",
+                "local": "22nd Sai Gon Shopping Mall, No. 37 Ton Duc Thang, Ben Nghe, 1st District, HCM, Vietnam"
+            },
+            "address-3": {
+                "title": "Tokyo Office",
+                "local": "〒135-0016 4-3-1 Toyo, Koto-ku, Tokyo Toyocho Shinei Building 4F"
+            }
         }
     }
 }

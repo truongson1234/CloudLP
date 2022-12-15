@@ -82,6 +82,40 @@
                     "item-8": "Quản lý lịch làm việc từ xa"
                 }
             }
+        },
+        "reason": {
+            "title": "Lý do lựa chọn CodeLovers Việt Nam làm đối tác chuyển đổi số doanh nghiệp",
+            "list": {
+                "item-1": "Đối tác ủy quyền của Google Cloud và Zoho Corporation",
+                "item-2": "Đội ngũ chuyên gia với kinh nghiệm 10 năm phát triển các giải pháp số hóa quy trình vận hành trong doanh nghiệp",
+                "item-3": "Chi phí cạnh tranh kết hợp nhiều ưu đãi khi hợp tác",
+                "item-4": "Hỗ trợ 24/7, giải đáp và tư vấn chu đáo các thắc mắc của khách hàng",
+                "item-5": "Bảo mật thông tin tuyệt đối theo tiêu chuẩn ISO 27001 và ISO 9001"
+            }
+        },
+        "connect": {
+            "title": "Kết nối với chúng tôi để được tư vấn",
+            "content": "Liên hệ với chúng tôi để được tư vấn giải pháp và dịch vụ tốt nhất cho doanh nghiệp của bạn và nhận báo giá dịch vụ tốt nhất"
+        },
+        "footer": {
+            "menu": {
+                "introduce": "Giới thiệu",
+                "google-workspace": "Google Workspace",
+                "zoho-workplace": "Zoho Workplace",
+                "office-solutions": "Giải pháp văn phòng không giấy tờ"
+            },
+            "address-1": {
+                "title": "Trụ sở chính Hà Nội",
+                "local": "Tầng 5, tòa nhà ACCI, số. 210 Lê Trọng Tấn, Phường Khương Mai, Quận Thanh Xuân, Hà Nội, Việt Nam."
+            },
+            "address-2": {
+                "title": "Chi nhánh Hồ Chí Minh",
+                "local": "Trung tâm Thương mại Sài Gòn thứ 22, 37 Tôn Đức Thắng, Phường Bến Nghé, Quận 1, TP.HCM, Việt Nam."
+            },
+            "address-3": {
+                "title": "Tokyo Office",
+                "local": "Tầng 4, Tòa nhà Shinei, Toyo-cho, 4-3-1 Toyo, Koto-ku, Tokyo 135-0016"
+            }
         }
     }
 }
