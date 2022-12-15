@@ -18,6 +18,12 @@
     .header .header__inner .header__btn-bars{
         display: block;
     }
+    .header .header__block-right{
+        flex-grow: 1;
+    }
+    .header .header__lang .header__lang-icon{
+        display: none;
+    }
     .header .header__hotline{
         flex: 1 1;
     }

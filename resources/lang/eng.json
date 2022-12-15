@@ -154,13 +154,13 @@
         },
         "register-modal": {
             "title": "Registration information",
-            "btn-submit": "Submit registration information",
+            "btn-submit": "Submit",
             "form": {
                 "item-1": "Your name",
                 "item-2": "Your phone number",
-                "item-3": "Your email",
-                "item-4": "Name of the company/organization you are working for",
-                "item-5": "Number of employees at the company/organization"
+                "item-3": "Your email address",
+                "item-4": "Name of the company/organization",
+                "item-5": "The number of employees at the company/organization"
             }
         },
         "confirm-modal": {
