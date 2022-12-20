@@ -239,6 +239,7 @@ html{
     margin-bottom: 10px;
     line-height: 1.2;
     position: relative;
+    transition: all .4s;
 }
 .problem .problem__question-list .problem__question-item::before{
     content: "";
