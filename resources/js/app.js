@@ -52,6 +52,14 @@ doc.ready(function() {
     $(".header .header__inner .header__btn-bars").click(function(){
         $(".header .header__menu").slideToggle();
     });
+
+    $("#google-workspace").click(function () {
+        window.location.href = "https://codelovers.vn/google-workspace/";
+    })
+
+    $("#zoho-workplace").click(function () {
+        window.location.href = "https://codelovers.vn/zoho/";
+    })
 });
 
 w.resize(function() {
