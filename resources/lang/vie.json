@@ -94,11 +94,24 @@
             }
         },
         "connect": {
-            "title": "Kết nối với chúng tôi để được tư vấn",
-            "content": "Liên hệ với chúng tôi để được tư vấn giải pháp và dịch vụ tốt nhất cho doanh nghiệp của bạn và nhận báo giá dịch vụ tốt nhất"
+            "item-1": {
+                "sub-title-1": "Get in touch",
+                "title": "Kết nối với chúng tôi để được tư vấn",
+                "sub-title-2": "Liên hệ với chúng tôi để được tư vấn giải pháp và dịch vụ tốt nhất cho doanh nghiệp của bạn và nhận báo giá dịch vụ tốt nhất"
+            },
+            "item-2": {
+                "title": "Make a call",
+                "tagname-1": "TEL (JP)",
+                "tagname-2": "E-mail"
+            },
+            "item-3": {
+                "title": "Send a request",
+                "btn-name": "Request form"
+            }
         },
         "brand": {
-            "title": "CodeLovers Việt Nam là một thành viên của Sateraito Office Group từ Nhật Bản"
+            "title": "CodeLovers Việt Nam là một thành viên của Sateraito Office Group từ Nhật Bản",
+            "brand-partner-title": "Đối tác Premium của"
         },
         "solution-2nd": {
             "title": "Giải pháp của chúng tôi",

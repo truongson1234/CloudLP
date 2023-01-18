@@ -1,0 +1,184 @@
+{
+    "translation": {
+        "header": {
+            "menu": {
+                "introduce": "紹介",
+                "google-workspace": "Google Workspace",
+                "zoho-workplace": "Zoho Workplace",
+                "office-solutions": "ペーパーレスのソリューション"
+            }
+        },
+        "slideshow": {
+            "title": "ビジネスを徹底的にデジタル化し、どこでも仕事をできることをサポートするSAASソリューションを提供"
+        },
+        "q2a": {
+            "btn-advise": "無料で相談しましょう",
+            "problem-1": {
+                "title": "Problem",
+                "topic": "組織でコラボレーションの問題",
+                "question-1": {
+                    "group-name": "大手企業",
+                    "list": {
+                        "item-1": "部門間で情報を一貫して伝達する必要がある",
+                        "item-2": "安全な情報のストレージが必要"
+                    }
+                },
+                "question-2": {
+                    "group-name": "スタートアップ・SMEsの企業",
+                    "list": {
+                        "item-1": "リモートで作業する際に接続を確保する必要がある",
+                        "item-2": "安全な情報のストレージが必要"
+                    }
+                }
+            },
+            "advantages-1": {
+                "title": "最適のソリューション",
+                "list-1": {
+                    "item-1": "ビジネスドメインでの安全なメール",
+                    "item-2": "ユーザーあたり30 GBから5 TBまでのクラウドストレージ",
+                    "item-3": "無制限のクラウドストレージ",
+                    "item-4": "100人から 500人まで参加できるオンライン会議",
+                    "item-5": "柔軟でスマートなオンラインオフィス のパッケージ"
+                },
+                "list-2": {
+                    "item-1": "ビジネス ドメイン別のZohoからのメール",
+                    "item-2": "ユーザーあたり 10 GBから100 GBまでのクラウドストレージ",
+                    "item-3": "10人から100人までの参加できるオンライン会議",
+                    "item-4": "オフィスパッケージ",
+                    "item-5": "スタートアップやSME企業に適した低コスト"
+                }
+            },
+            "problem-2": {
+                "title": "Problem",
+                "topic": "企業で運用プロセスの問題",
+                "question-1": {
+                    "group-name": "大手企業",
+                    "list": {
+                        "item-1": "承認する手続きや書類が多すぎるため、作業プロセスを簡素化する必要がある"
+                    }
+                },
+                "question-2": {
+                    "group-name": "スタートアップ・SMEsの企業",
+                    "list": {
+                        "item-1": "事業を運営するため、作業プロセスを完了し、承認書類を準備する必要がある"
+                    }
+                }
+            },
+            "advantages-2": {
+                "title": "ペーパーレスのソリューション",
+                "list-1": {
+                    "item-1": "クラウド拡張パッケージはGoogle Workspaceに付属",
+                    "item-2": "ビジネス プロセスの運用をサポートするペーパーレス基準（事務処理の簡素化）",
+                    "item-3": "企業の社内業務プロセスの時間短縮を支援"
+                },
+                "list-2": {
+                    "item-1": "勤怠管理",
+                    "item-2": "採用管理",
+                    "item-3": "人材管理",
+                    "item-4": "設備管理",
+                    "item-5": "購入管理",
+                    "item-6": "決済管理",
+                    "item-7": "デジタル書類承認管理",
+                    "item-8": "在宅勤務タイムカード管理"
+                }
+            }
+        },
+        "reason": {
+            "title": "なぜデジタルトランスフォーメーションパートナーとしてコードラバーを選ぶ",
+            "list": {
+                "item-1": "Google Cloud および Zoho Corporation の認定パートナー",
+                "item-2": "ビジネス オペレーションをデジタル化するソリューションの開発に 10 年の経験を持つ専門家チーム",
+                "item-3": "協力の際に競争力のあるコストと多くの利点",
+                "item-4": "24/7のサポート、お客様からの質問へ回答とコンサルティング",
+                "item-5": "ISO PO001 および ISO _001 規格に準拠した絶対的な情報セキュリティ"
+            }
+        },
+        "connect": {
+            "item-1": {
+                "sub-title-1": "",
+                "title": "お気軽にご連絡ください",
+                "sub-title-2": "お客様のビジネスに最適なソリューションとサービスに関するアドバイス、最高のサービス見積もりについては、お問い合わせください"
+            },
+            "item-2": {
+                "title": "お問い合わせ",
+                "tagname-1": "TEL (JP)",
+                "tagname-2": "Eメール"
+            },
+            "item-3": {
+                "title": "リクエスト",
+                "btn-name": "リクエストフォーム"
+            }
+        },
+        "brand": {
+            "title": "ベトナムコードラバーは、日本のサテライトオフィスグループのメンバーです。",
+            "brand-partner-title": "のプレミアムの取引先"
+        },
+        "solution-2nd": {
+            "title": "私たちのソリューション",
+            "sub-title": "デジタルトランスフォーメーション戦略を実行する過程で、ベトナムと日本で4000以上の企業をサポートしてきました。",
+            "content-1": {
+                "name": "システム開発・オフショア開発",
+                "list": {
+                    "item-1": "ウェブ・アプリシステム開発",
+                    "item-2": "システム統合",
+                    "item-3": "新しいビジネスモデルの開発をサポート",
+                    "item-4": "既存のシステムを保守および修正",
+                    "item-5": "オフショアラボ開発サービス"
+                }
+            },
+            "content-2": {
+                "name": "ITソリューション",
+                "list": {
+                    "item-1": "新しいテクノロジーでデジタル トランスフォー",
+                    "item-2": "メーションを推進 B2Bビジネス効率の向上",
+                    "item-3": "AI/ブロックチェーン開発",
+                    "item-4": "リモート作業モデルに最適化",
+                    "item-5": "Google Workspaceに付属するアドオンの開発"
+                }
+            },
+            "content-3": {
+                "name": "SaaS/CLOUDのサービス",
+                "list": {
+                    "item-1": "Google Workspace (GW) license reseller",
+                    "item-2": "Zoho License Reseller",
+                    "item-3": "クラウド上のユーティリティの開発と運用"
+                }
+            }
+        },
+        "footer": {
+            "menu": {
+                "introduce": "紹介",
+                "google-workspace": "Google Workspace",
+                "zoho-workplace": "Zoho Workplace",
+                "office-solutions": "ペーパーレスのソリューション"
+            },
+            "address-1": {
+                "title": "本社 (ハノイ）",
+                "local": "5th Floor, ACCI building, no. 210 Le Trong Tan Street, Khuong Mai Ward, Thanh Xuan District, Hanoi, Vietnam"
+            },
+            "address-2": {
+                "title": "支社 (ホーチミン市）",
+                "local": "22nd Saigon Trade Center, 37 Ton Duc Thang, Ben Nghe Ward, District 1, HCMC, Vietnam."
+            },
+            "address-3": {
+                "title": "東京事務所",
+                "local": "〒135-0016 東京都江東区東陽4-3-1 東陽町信栄ビル4階"
+            }
+        },
+        "register-modal": {
+            "title": "Registration information",
+            "btn-submit": "Submit",
+            "form": {
+                "item-1": "Your name",
+                "item-2": "Your phone number",
+                "item-3": "Your email address",
+                "item-4": "Name of the company/organization",
+                "item-5": "The number of employees at the company/organization"
+            }
+        },
+        "confirm-modal": {
+            "title": "Thank you!",
+            "sub-title": "CodeLovers Vietnam will contact you as soon as possible."
+        }
+    }
+}

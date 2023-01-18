@@ -1,5 +1,6 @@
 import langEng from '../lang/eng.json' assert {type: 'json'};
 import langVie from '../lang/vie.json' assert {type: 'json'};
+import langJap from '../lang/jap.json' assert {type: 'json'};
 
 i18next.init({
     lng: 'eng',
@@ -9,6 +10,9 @@ i18next.init({
         },
         vie: {
             translation: langVie.translation
+        },
+        jap: {
+            translation: langJap.translation
         },
     }
 }, function(err, t) {

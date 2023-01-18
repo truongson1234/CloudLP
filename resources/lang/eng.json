@@ -94,11 +94,24 @@
             }
         },
         "connect": {
-            "title": "Get in touch with us",
-            "content": "Connect with us to get the best digital transformation solution for your company"
+            "item-1": {
+                "sub-title-1": "",
+                "title": "Get in touch with us",
+                "sub-title-2": "Connect with us to get the best digital transformation solution for your company"
+            },
+            "item-2": {
+                "title": "Make a call",
+                "tagname-1": "TEL (JP)",
+                "tagname-2": "E-mail"
+            },
+            "item-3": {
+                "title": "Send a request",
+                "btn-name": "Request form"
+            }
         },
         "brand": {
-            "title": "CodeLovers Vietnam is a member of Sateraito Office group from Japan"
+            "title": "CodeLovers Vietnam is a member of Sateraito Office group from Japan",
+            "brand-partner-title": "A PREMIUM PARTNER OF"
         },
         "solution-2nd": {
             "title": "Our Solutions",
