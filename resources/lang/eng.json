@@ -6,7 +6,8 @@
                 "google-workspace": "Google Workspace",
                 "zoho-workplace": "Zoho Workplace",
                 "office-solutions": "Paperless Office Solution"
-            }
+            },
+            "btn-hotline": "Hotline 0246.6886760"
         },
         "slideshow": {
             "title": "We provide SAAS solutions to support Enterprise Digital Transformation and Work from Anywhere"
@@ -102,6 +103,7 @@
             "item-2": {
                 "title": "Make a call",
                 "tagname-1": "TEL (JP)",
+                "tel": "0246.6886.760",
                 "tagname-2": "E-mail"
             },
             "item-3": {

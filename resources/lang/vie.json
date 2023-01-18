@@ -6,7 +6,8 @@
                 "google-workspace": "Google Workspace",
                 "zoho-workplace": "Zoho Workplace",
                 "office-solutions": "Giải pháp văn phòng không giấy tờ"
-            }
+            },
+            "btn-hotline": "Hotline 0246.6886760"
         },
         "slideshow": {
             "title": "Cung cấp các giải pháp SAAS hỗ trợ doanh nghiệp chuyển đổi số triệt để và làm việc từ bất kỳ đâu"
@@ -102,6 +103,7 @@
             "item-2": {
                 "title": "Make a call",
                 "tagname-1": "TEL (JP)",
+                "tel": "0246.6886.760",
                 "tagname-2": "E-mail"
             },
             "item-3": {

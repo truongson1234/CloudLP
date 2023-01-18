@@ -6,7 +6,8 @@
                 "google-workspace": "Google Workspace",
                 "zoho-workplace": "Zoho Workplace",
                 "office-solutions": "ペーパーレスのソリューション"
-            }
+            },
+            "btn-hotline": "お問い合わせ 050-5306-9989"
         },
         "slideshow": {
             "title": "ビジネスを徹底的にデジタル化し、どこでも仕事をできることをサポートするSAASソリューションを提供"
@@ -102,6 +103,7 @@
             "item-2": {
                 "title": "お問い合わせ",
                 "tagname-1": "TEL (JP)",
+                "tel": "050.5306.9989",
                 "tagname-2": "Eメール"
             },
             "item-3": {

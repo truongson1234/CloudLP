@@ -22,6 +22,13 @@ i18next.init({
     $(".header .header__lang .header__lang-link").click(function() {
         $(".header .header__lang .header__lang-link").removeClass("active")
         $(this).addClass("active")
+
+        // jap language change phone number
+        $(".hotline-btn.btn-advise").attr('href', 'tel:02466886760')
+        if ($(this)[0].classList.contains('jap')) {
+            $(".hotline-btn.btn-advise").attr('href', 'tel:05053069989')
+        }
+
         i18next.changeLanguage(this.innerHTML);
         $("#main").localize();
     });
