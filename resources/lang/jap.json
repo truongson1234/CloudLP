@@ -15,7 +15,7 @@
         "q2a": {
             "btn-advise": "無料で相談しましょう",
             "problem-1": {
-                "title": "Problem",
+                "title": "",
                 "topic": "組織でコラボレーションの問題",
                 "question-1": {
                     "group-name": "大手企業",
@@ -50,7 +50,7 @@
                 }
             },
             "problem-2": {
-                "title": "Problem",
+                "title": "",
                 "topic": "企業で運用プロセスの問題",
                 "question-1": {
                     "group-name": "大手企業",
