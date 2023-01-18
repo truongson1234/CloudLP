@@ -168,19 +168,19 @@
             }
         },
         "register-modal": {
-            "title": "Registration information",
-            "btn-submit": "Submit",
+            "title": "登録情報",
+            "btn-submit": "登録する",
             "form": {
-                "item-1": "Your name",
-                "item-2": "Your phone number",
-                "item-3": "Your email address",
-                "item-4": "Name of the company/organization",
-                "item-5": "The number of employees at the company/organization"
+                "item-1": "お名前",
+                "item-2": "電話番号",
+                "item-3": "Eメール",
+                "item-4": "在勤会社/組織の名称",
+                "item-5": "在勤会社/組織の人数"
             }
         },
         "confirm-modal": {
-            "title": "Thank you!",
-            "sub-title": "CodeLovers Vietnam will contact you as soon as possible."
+            "title": "ありがとうございました！",
+            "sub-title": "ベトナムコードラバーはなるべく速やかにご連絡いたします。"
         }
     }
 }

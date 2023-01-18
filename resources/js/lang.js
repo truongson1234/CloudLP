@@ -3,15 +3,15 @@ import langVie from '../lang/vie.json' assert {type: 'json'};
 import langJap from '../lang/jap.json' assert {type: 'json'};
 
 i18next.init({
-    lng: 'eng',
+    lng: 'en',
     resources: {
-        eng: {
+        en: {
             translation: langEng.translation
         },
-        vie: {
+        vi: {
             translation: langVie.translation
         },
-        jap: {
+        jp: {
             translation: langJap.translation
         },
     }
