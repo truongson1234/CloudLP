@@ -19,8 +19,9 @@ i18next.init({
     i18nextJquery.init(i18next, $);
     $("#main").localize();
 
-    $('.header .header__lang .header__lang-link').click(function() {
-        $(".header .header__lang .header__lang-link").toggleClass('active')
+    $(".header .header__lang .header__lang-link").click(function() {
+        $(".header .header__lang .header__lang-link").removeClass("active")
+        $(this).addClass("active")
         i18next.changeLanguage(this.innerHTML);
         $("#main").localize();
     });
